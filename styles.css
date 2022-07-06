@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-size: 65px;
+    line-height: 80px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    padding: 13px 20px;
+    border-radius: 5px;
+    font-weight: 700px;
+    font-size: 20px;
+}
+
+.btn {
+    color: white;
+    background-color: #FF5959;
+}
+
+.section-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec-one {
+    height: 700px;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 85%;
+    margin: 0px auto;
+    border: 2px solid red;
+}
+
+.item {
+    max-width: 70%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#sec-one .item h1,
+p {
+    color: white;
+}
+
+.p-width {
+    max-width: 50%;
+}
+
+.p-width p {
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+#sec-two {
+    padding: 80px 50px 65px;
+}
+
+#donate-p {
+    color: black;
+}
+
+#amount-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 55px auto;
+    /* border: 2px solid grey; */
+}
+
+.amount {
+    width: 135px;
+    height: 120px;
+    border-radius: 4px;
+}
+
+.amount p {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    color: gray;
+}
+
+.grey-box {
+    background-color: rgb(244, 244, 244);
+    /* border: 2px solid grey; */
+}
+
+#red-box {
+    background-color: rgb(255, 229, 233);
+    border: 2px solid tomato;
+}
+
+#red-box p {
+    color: tomato;
+}
+
+#input-amount {
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 38px;
+    padding-bottom: 10px;
+}
+
+#sec-three {
+    padding: 0px 50px 115px;
+}
+
+#d-plan-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px auto;
+    /* border: 2px solid tomato; */
+}
+
+.plan-bx {
+    width: 305px;
+    height: 285px;
+    border-radius: 4px;
+    padding: 23px;
+    /* border: 2px solid gray; */
+}
+
+.plan-bx p {
+    color: gray;
+}
+
+.plan-bx img {
+    width: 60px;
+    margin-top: 30px;
+}
+
+#food-box {
+    background-color: #EDF5F6;
+}
+
+#shelter-box {
+    background-color: #FFEEEE;
+}
+
+#edu-box {
+    background-color: #FFF4D5;
+}
+
+#sec-five {
+    padding: 0px 50px 115px;
+
+}
+
+#update-container {
+    width: 80%;
+    padding: 80px 0px 80px;
+    margin: 5px auto;
+    background-color: #FFF4D5;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid tomato;  */
+}
+
+#email,
+button {
+    border: none;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#email {
+    width: 230px;
+    background-color: #D8D8D8;
+    color: grey;
+    border-radius: 4px 0px 0px 4px;
+    margin-right: 0;
+}
+
+button {
+    width: 155px;
+    border-radius: 0px 4px 4px 0px;
+    margin-left: 0;
+}
+
+#update-form {
+    border-radius: 4px;
+    background-color: #D8D8D8;
+}
+
+footer {
+    padding: 5px 0px 46px;
+    background-color: #13141A;
+}
+
+#footer-div {
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#footer-div h3 {
+    color: #FF5959;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+}
