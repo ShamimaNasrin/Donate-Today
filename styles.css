@@ -19,6 +19,10 @@ h3 {
     font-size: 25px;
 }
 
+p {
+    color: gray;
+}
+
 a {
     text-decoration: none;
     padding: 13px 20px;
@@ -38,8 +42,12 @@ a {
     align-items: center;
 }
 
+.section-padding {
+    padding: 0px 50px 50px;
+}
+
 #sec-one {
-    height: 700px;
+    height: 650px;
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,7 +56,7 @@ a {
 .container {
     width: 85%;
     margin: 0px auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .item {
@@ -57,8 +65,8 @@ a {
     text-align: center;
 }
 
-#sec-one .item h1,
-p {
+#header-p,
+h1 {
     color: white;
 }
 
@@ -71,12 +79,9 @@ p {
     margin-bottom: 45px;
 }
 
+/* Donate Today section */
 #sec-two {
-    padding: 80px 50px 65px;
-}
-
-#donate-p {
-    color: black;
+    padding: 50px;
 }
 
 #amount-container {
@@ -96,7 +101,6 @@ p {
     text-align: center;
     font-weight: 800;
     font-size: 30px;
-    color: gray;
 }
 
 .grey-box {
@@ -123,27 +127,20 @@ p {
     padding-bottom: 10px;
 }
 
-#sec-three {
-    padding: 0px 50px 115px;
-}
+/* Donation plan section */
 
 #d-plan-container {
     display: flex;
     justify-content: space-evenly;
-    margin: 15px auto;
+    margin: 30px auto 0px;
     /* border: 2px solid tomato; */
 }
 
 .plan-bx {
-    width: 305px;
-    height: 285px;
+    width: 310px;
+    height: 290px;
     border-radius: 4px;
     padding: 23px;
-    /* border: 2px solid gray; */
-}
-
-.plan-bx p {
-    color: gray;
 }
 
 .plan-bx img {
@@ -163,15 +160,48 @@ p {
     background-color: #FFF4D5;
 }
 
-#sec-five {
-    padding: 0px 50px 115px;
+/* success section */
 
+#success-container {
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    box-shadow: 3px 3px 25px rgb(173, 173, 173);
+    /* border: 2px solid gray; */
+}
+
+.half-width,
+#footer-div {
+    width: 50%;
+}
+
+.half-width img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.half-width h3 {
+    font-size: 19px;
+}
+
+#right {
+    margin-top: -100px;
+    padding: 0px 55px;
+}
+
+/* update section */
+#sec-five {
+    padding: 0px 50px 95px;
 }
 
 #update-container {
     width: 80%;
     padding: 80px 0px 80px;
-    margin: 5px auto;
+    margin: 30px auto;
     background-color: #FFF4D5;
     display: flex;
     justify-content: center;
@@ -205,13 +235,13 @@ button {
     background-color: #D8D8D8;
 }
 
+/* footer */
 footer {
-    padding: 5px 0px 46px;
+    padding: 5px 0px 30px;
     background-color: #13141A;
 }
 
 #footer-div {
-    width: 50%;
     margin: 0px auto;
     text-align: center;
 }
